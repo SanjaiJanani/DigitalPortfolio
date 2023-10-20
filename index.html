@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE_edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Personal Portfolio</title>
+    <link rel="icon" href="./images/sj-monograms-wedding-circle-handwriting-jewelry-logo-template-vector_615068-2323.avif">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8a0950719.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!-- Home -->
+    <div id="header">
+        <div class="container">
+          <nav>
+            <img src="images/1000143686-removebg-preview.png" alt=""  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I'm <span>Sanjai</span> <br>From Sivaganga</h1>
+          </div>
+        </div>
+    </div> 
+            <!--     about     -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/1000091165-removebg-preview.png" alt="#">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me </h1>
+                <p> A Front-End Developer with entry-level experience specializing in web development,<br>
+                    user interface design, HTML5,CSS3, and ReactJS. Adept at identifying opportunities to<br>
+                    enhance front-end design and improve the user experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONT-END</span><br>Developer Web/App Interfaces</li>
+                            <li><span>Website Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Front-End Developer at Startup-info</li>
+                            <li><span>2021 - 2022</span><br>Junior Web Developer at Google.</li>
+                            <li><span>2019 - 2020</span><br>Intership at Zoho-Corp</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2023</span><br>Bsc.Computerscience in RDGA collage</li>
+                            <li><span>HTML5/CSS3</span><br>Advance course in Udemy</li>
+                            <li><span>Javascript - ReactJS</span><br>Advance course in Udemy</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div> 
+ <!-- ---------- services ---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web Designers are responsible for designing and building the interface,
+                        navigation and aesthetic of websites for businesses and clients</p>
+                        <a href="https://www.w3schools.com/whatis/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>The application designer gathers requirements from business systems analysts and end users.
+                       The designer also determines which IT resources will be available to support the application.</p>
+                        <a href="https://www.w3schools.com/appml/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Back-End</h2>
+                    <p>Backend developer responsibilities include creating, maintaining, testing,
+                       and debugging the entire back end of an application or system.</p>
+                    <a href="https://www.w3schools.com/bootcamp/bootcamp_backend.php">Learn more</a>
+                </div>  
+            </div>  
+        </div>
+    </div>
+    <!-- ------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media Website in Front-End</h3>
+                        <p>This website connects you to talented people around the world.
+                           You can search it from Google.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This website connects you to talented people around the world.
+                           You can search it from Google.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" >
+                    <div class="layer">
+                        <h3>Marketing Website</h3>
+                        <p>This website connects you to talented people around the world.
+                           You can search it from Google.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    <!-- ----------Contact----------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>contact@mail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>8986767890</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="./images/my-cv.pdf"  download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyrights &#169; Sanjai. Made with <i class="fas fa-heart"></i> by Easy Learning.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+</body>
+</html>
